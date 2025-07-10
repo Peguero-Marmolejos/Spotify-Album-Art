@@ -1,0 +1,15 @@
+# API Keys and Secrets
+auth/
+*.json
+credentials.json
+authentication-res.json
+
+# Dependencies
+node_modules/
+
+# Generated files
+album-art/
+album-request.html
+
+# Environment files
+.env
