@@ -1,0 +1,220 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Search Results: Mach Hommy</title>
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+          font-family: 'Segoe UI', Arial, sans-serif;
+          background: linear-gradient(135deg, #1db954, #191414);
+          color: white;
+          min-height: 100vh;
+          padding: 2rem;
+        }
+        .header {
+          text-align: center;
+          margin-bottom: 3rem;
+        }
+        .header h1 {
+          font-size: 2.5rem;
+          margin-bottom: 1rem;
+        }
+        .back-link {
+          color: #1db954;
+          text-decoration: none;
+          font-size: 1.2rem;
+          background: rgba(255,255,255,0.1);
+          padding: 0.5rem 1rem;
+          border-radius: 25px;
+          transition: all 0.3s ease;
+        }
+        .back-link:hover {
+          background: rgba(255,255,255,0.2);
+        }
+        .album-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+          gap: 2rem;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+        .album-item {
+          background: rgba(255,255,255,0.1);
+          border-radius: 15px;
+          padding: 1rem;
+          text-align: center;
+          transition: transform 0.3s ease;
+        }
+        .album-item:hover {
+          transform: translateY(-5px);
+        }
+        .album-image {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 10px;
+          margin-bottom: 1rem;
+        }
+        .album-placeholder {
+          width: 100%;
+          height: 200px;
+          background: rgba(255,255,255,0.2);
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 1rem;
+          font-size: 3rem;
+        }
+        .album-name {
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+          font-size: 1rem;
+        }
+        .artist-name {
+          opacity: 0.8;
+          font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+          .album-grid {
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>🎵 "Mach Hommy" Albums</h1>
+        <a href="/" class="back-link">← Search Again</a>
+      </div>
+      
+      <div class="album-grid">
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273c43b3a9459cadcf6f68867cd.jpeg" alt="Pray For Haiti" class="album-image" />
+            <div class="album-name">Pray For Haiti</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273f2f78fdf667745983bb565a8.jpeg" alt="#RICHAXXHAITIAN" class="album-image" />
+            <div class="album-name">#RICHAXXHAITIAN</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b2732c7cc0fc74cd14222649ba5b.jpeg" alt="Mach's Hard Lemonade" class="album-image" />
+            <div class="album-name">Mach's Hard Lemonade</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b2736864e9fb4ea88a68ee240c7b.jpeg" alt="Wap Konn Jòj!" class="album-image" />
+            <div class="album-name">Wap Konn Jòj!</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273d773eeea1eba4182bd18c4ab.jpeg" alt="Notorious Dump Legends: Volume 2" class="album-image" />
+            <div class="album-name">Notorious Dump Legends: Volume 2</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b27367eece98c99ca88a360f101c.jpeg" alt="Balens Cho (Hot Candles)" class="album-image" />
+            <div class="album-name">Balens Cho (Hot Candles)</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b2737b9e2dfd27fc5ad8c38b6f41.jpeg" alt="HBO (Haitian Body Odor)" class="album-image" />
+            <div class="album-name">HBO (Haitian Body Odor)</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273ff833b9d343384b45cdcc5cf.jpeg" alt="Bulletproof Luh" class="album-image" />
+            <div class="album-name">Bulletproof Luh</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273d297b63459aa91473ae461c7.jpeg" alt="Fete Des Morts AKA Dia De Los Muertos" class="album-image" />
+            <div class="album-name">Fete Des Morts AKA Dia De Los Muertos</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273ac3bd0790327c72b5c59c2a1.jpeg" alt="No Golden Calf" class="album-image" />
+            <div class="album-name">No Golden Calf</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b27389e4b0a8267a68de67df34aa.jpeg" alt="HBO (Haitian Body Odor)" class="album-image" />
+            <div class="album-name">HBO (Haitian Body Odor)</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b2733280dd8d1514436240a79bac.jpeg" alt="F.Y.I. (Digitally Remastered)" class="album-image" />
+            <div class="album-name">F.Y.I. (Digitally Remastered)</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273842871a184ec9be547314ddd.jpeg" alt="Wide Berth" class="album-image" />
+            <div class="album-name">Wide Berth</div>
+            <div class="artist-name">Tha God Fahim</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273fe62ee097a23d7ceb5c68575.jpeg" alt="Wap Konn Jòj!" class="album-image" />
+            <div class="album-name">Wap Konn Jòj!</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b2734aab9bd0d67d87e32c0bbdf2.jpeg" alt="Dollar Menu 4" class="album-image" />
+            <div class="album-name">Dollar Menu 4</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273d93501aba7bc1140aac628c6.jpeg" alt="Free Nationals" class="album-image" />
+            <div class="album-name">Free Nationals</div>
+            <div class="artist-name">Free Nationals</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b2735feb0059269459773445d3ab.jpeg" alt="#RICHAXXHAITIAN" class="album-image" />
+            <div class="album-name">#RICHAXXHAITIAN</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b2732e34d780090b170c71171e6d.jpeg" alt="F.Y.I." class="album-image" />
+            <div class="album-name">F.Y.I.</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b273022a8fc2d42f53d253195505.jpeg" alt="Balens Cho (Hot Candles)" class="album-image" />
+            <div class="album-name">Balens Cho (Hot Candles)</div>
+            <div class="artist-name">Mach-Hommy</div>
+          </div>
+        
+          <div class="album-item">
+            <img src="/album-art/ab67616d0000b27346f9bf1154c7205b0e8b1667.jpeg" alt="Doris" class="album-image" />
+            <div class="album-name">Doris</div>
+            <div class="artist-name">Earl Sweatshirt</div>
+          </div>
+        
+      </div>
+    </body>
+    </html>
+  

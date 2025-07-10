@@ -1,0 +1,16 @@
+{
+  "name": "spotify-album-art-viewer",
+  "version": "1.0.0",
+  "description": "Web application to search and display Spotify album artwork",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["spotify", "api", "albums", "music", "node.js"],
+  "author": "Emily Peguero Marmolejos",
+  "license": "MIT",
+  "dependencies": {
+    "querystring": "^0.2.1"
+  }
+}
